@@ -15,8 +15,8 @@ jobs:
       - name: Generate Snake Game
         uses: Platane/snk@v3
         with:
-          github_user_name: bgitesh
-          outputs: dist/snake.svg
+  github_user_name: bgitesh   # <-- must be your username
+  svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
